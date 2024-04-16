@@ -1,4 +1,4 @@
-![Lora A lastlayer - Epoch 42](https://github.com/L3030/gpt2-lora-practice/assets/74963049/dbda2e23-5642-432f-a7b9-a7f81acfa58e)# gpt2-lora-practice
+# gpt2-lora-practice
 This is a practice project for lora gpt2, with performance evaluation with different optimizers and schedulars.
 
 ## Details
