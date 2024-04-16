@@ -19,7 +19,7 @@ For CAME, the last layer's mean changes dramatically, may sugggesting a smaller 
 
 For adafactor, we try different lora rank and different initialization schemes, but it always fails to converge in this setting.
 
-# Update 2024.4.16
+# Update 2024.4.16 Upload the weights_distribution rar file.
 We provide the histograms of parameter distributions for Lora A and Lora B in the second-to-last layer and last layer, for both the attention (attn) and feedforward neural network (fnn) layers. The distribution shifts are compared for AdamW, CAME, and Adafactor.
 
 With one batch*gradient_accumulation_steps, for every gradient_accumulation_step, we report the histograms of parameter distributions because we want to observe the changes in distributions as they converge rapidly. After that, we report the distribution every num_update_steps, since the distribution changes become small as the model tends to converge.
